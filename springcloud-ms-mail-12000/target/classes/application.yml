@@ -1,0 +1,13 @@
+server:
+  port: 12000
+
+
+rocketmq:
+  nameserverAddr: localhost:9876
+  topicName: send-email-topic
+  topicTag: tag1
+
+  producerGroupName: sendMailProducer
+  consumerGroupName: sendMailConsumer
+
+
